@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = '0.0.1'
   s.date        = '2016-10-04'
   s.summary     = "A simple gem to search details like city, state, post office,taluka name, district name,head office and sub office details from pincode"
-  s.description = "Gem to identify pincodes inside India"
+  s.description = "Gem to find pincode details inside India"
   s.authors     = ["Milind Patel"]
   s.email       = '66.milind@gmail.com'
   s.files       = ["lib/indian_pincodes.rb"]
