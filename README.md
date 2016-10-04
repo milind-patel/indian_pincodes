@@ -25,7 +25,7 @@ Or install it yourself as:
 require "indian_pincodes"
 
 IndianPincodes.search('382481')
-# => {:city=>"Ahmedabad HQ", :state=>"GUJARAT", :post_office=>"Nirnaynagar", :taluka_name=>"Ahmadabad City", :district_name=>"Ahmedabad", :head_office=>"Gandhinagar (Gujarat)", :sub_office=>"NA", :country=>"India"}
+# => {:city=>"Ahmedabad", :state=>"GUJARAT", :post_office=>"Nirnaynagar", :taluka_name=>"Ahmadabad, :district_name=>"Ahmedabad", :head_office=>"Gandhinagar (Gujarat)", :sub_office=>"NA", :country=>"India"}
 # First run will take a while, as the yaml has to be loaded.
 ```
 
