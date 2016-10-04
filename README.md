@@ -1,4 +1,5 @@
-# IndianPincodes
+# IndianPincodes [![Gem Version](https://badge.fury.io/rb/indian-pincodes.png)](https://badge.fury.io/rb/indian-pincodes.svg)
+
 A simple gem to search city, state, post office,taluka name, district name,head office and sub office details from pincode. All details has been stored in yaml file
 
 Note: You need around 25MB free space in your system or server to use this gem.
@@ -11,7 +12,7 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-    $ bundle or bundle install
+    $ bundle
 
 Or install it yourself as:
 
@@ -23,9 +24,9 @@ Or install it yourself as:
 
 require "indian_pincodes"
 
-IndianPincodes.search('382480')
+IndianPincodes.search('382481')
 # => {:city=>"Ahmedabad HQ", :state=>"GUJARAT", :post_office=>"Nirnaynagar", :taluka_name=>"Ahmadabad City", :district_name=>"Ahmedabad", :head_office=>"Gandhinagar (Gujarat)", :sub_office=>"NA", :country=>"India"}
-# First run will take a while, as the yaml has to be loaded
+# First run will take a while, as the yaml has to be loaded.
 ```
 
 If you are using Rails, you can load the yaml file on app startup for production and staging.
