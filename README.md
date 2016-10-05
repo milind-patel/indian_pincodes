@@ -1,6 +1,6 @@
 # IndianPincodes [![Gem Version](https://badge.fury.io/rb/indian-pincodes.png)](https://badge.fury.io/rb/indian-pincodes.svg)
 
-A simple gem to search city, state, post office,taluka name, district name,head office and sub office details from pincode. All details has been stored in yaml file
+A simple gem to search city, state, post office,taluka name, district name,head office and sub office details from pincode. All details has been stored in yaml file. We will be adding postal code details for more countries soon.
 
 Note: You need around 25MB free space in your system or server to use this gem.
 
